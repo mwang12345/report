@@ -7,9 +7,9 @@
 1.在pom文件中引入依赖，目前最新版本为：1.0.0-SNAPSHOT
 ```
     <dependency>
-        <groupId>com.ichinae.core.plugins</groupId>
-        <artifactId>ichinae-core-plugins-report</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <groupId>com.wk.core.plugins</groupId>
+        <artifactId>wk-core-plugins-report</artifactId>
+        <version>0.0.1</version>
     </dependency>
 ```
 2.在项目properties/ymal配置文件中添加如下配置:
