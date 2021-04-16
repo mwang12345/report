@@ -1,0 +1,15 @@
+##mybatis:
+##  mapper-locations: classpath*:mapper/**/*Mapper.xml
+##  configuration:
+##    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#
+###=====actuator=====##
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: health,info,env,metrics,prometheus
+#  metrics:
+#    tags:
+#      application: ${spring.application.name}

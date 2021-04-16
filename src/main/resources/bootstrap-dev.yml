@@ -1,0 +1,21 @@
+spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/edc_sms?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#    # 下面为连接池的补充设置，应用到上面所有数据源中
+#    initialSize: 5
+#    minIdle: 5
+#    maxActive: 20
+#    # 配置获取连接等待超时的时间
+#    maxWait: 60000
+#    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+#    timeBetweenEvictionRunsMillis: 60000
+#    # 配置一个连接在池中最小生存的时间，单位是毫秒
+#    minEvictableIdleTimeMillis: 300000
+zdxf:
+  report:
+    tpl: D:/tmp/report/tpl
+    template: D:/tmp/report/template
+    genPath: D:/tmp/report/download

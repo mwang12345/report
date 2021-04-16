@@ -1,0 +1,20 @@
+#spring:
+#  application:
+#    name: report-service
+#  profiles:
+#    active: dev
+#  freemarker:
+#    request-context-attribute: req  #req访问request
+#    suffix: .html  #后缀名
+#    content-type: text/html
+#    enabled: true
+#    cache: false #缓存配置
+#    template-loader-path: classpath:/templates/ #模板加载路径 按需配置
+##    template-loader-path: D://tmp//print//html #模板加载路径 按需配置
+#    charset: UTF-8 #编码格式
+#    settings:
+#      number_format: '0.##'   #数字格式化，无小数点
+##  resources:
+##        static-locations: file:/home/report-service/resource
+#server:
+#  port: 8013
