@@ -12,7 +12,7 @@
     <groupId>com.wk.core.plugins</groupId>
     <artifactId>wk-core-plugins-report</artifactId>
     <version>0.0.1</version>
-    <name>ichnia-core-plugins-report</name>
+    <name>wk-core-plugins-report</name>
 
     <dependencies>
         <dependency>
